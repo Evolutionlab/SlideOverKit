@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{C8CF6460-9DB8-4120-8914-2D941D4B4440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideOverKit", "SlideOverKit\SlideOverKit.csproj", "{EF099C9A-2BB4-468D-8352-867896E7B275}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlideOverKit", "SlideOverKit\SlideOverKit.csproj", "{EF099C9A-2BB4-468D-8352-867896E7B275}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideOverKit.Droid", "SlideOverKit.Droid\SlideOverKit.Droid.csproj", "{48CFA234-7CB1-4E8C-A370-4AF410F53857}"
 EndProject
@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{BE33D7F8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{FF211FE4-280C-47C7-A008-41C2DF86C575}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideOverKit.MoreSample", "SlideOverKitMoreSamples\SlideOverKit.Sample\SlideOverKit.MoreSample.csproj", "{F3B63D96-50BB-4C6F-94A8-56072D6E3AF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlideOverKit.MoreSample", "SlideOverKitMoreSamples\SlideOverKit.Sample\SlideOverKit.MoreSample.csproj", "{F3B63D96-50BB-4C6F-94A8-56072D6E3AF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlideOverKit.MoreSample.Droid", "SlideOverKitMoreSamples\Droid\SlideOverKit.MoreSample.Droid.csproj", "{15830FA7-5E5B-42C0-9DED-8665F44B3D92}"
 EndProject
@@ -268,6 +268,7 @@ Global
 		{15830FA7-5E5B-42C0-9DED-8665F44B3D92}.AppStore|x86.Deploy.0 = Release|Any CPU
 		{15830FA7-5E5B-42C0-9DED-8665F44B3D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15830FA7-5E5B-42C0-9DED-8665F44B3D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15830FA7-5E5B-42C0-9DED-8665F44B3D92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{15830FA7-5E5B-42C0-9DED-8665F44B3D92}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{15830FA7-5E5B-42C0-9DED-8665F44B3D92}.Debug|ARM.Build.0 = Debug|Any CPU
 		{15830FA7-5E5B-42C0-9DED-8665F44B3D92}.Debug|ARM.Deploy.0 = Debug|Any CPU

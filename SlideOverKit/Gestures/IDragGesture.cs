@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
+[assembly: InternalsVisibleTo("SlideOverKit.iOS"),
+           InternalsVisibleTo("SlideOverKit.Droid"),
+           InternalsVisibleTo("SlideOverKit.UWP")]
 namespace SlideOverKit
 {
     internal struct Rect
